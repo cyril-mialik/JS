@@ -14,36 +14,3 @@ function foo(a) {
 
 foo(2); // Uncaught ReferenceError: b is not defined
 
-// -------------------------------------------------
-
-/*
-  *
-  * ! VARIABLE DECLARATION
-  * * Here the answer will be 2 because of the 'b' declaration
-  * * if variable is declarated without the 'var' | 'let' | 'const' key word
-  * * the value will be invocated as global variable.
-  *
-*/
-function bar(a) {
-  b = a;
-}
-
-bar(2);
-console.log(b) // 2
-
-// -------------------------------------------------
-
-
-/*
-  *
-  * ! VARIABLE DECLARATION
-  * * Here the answer will be 2 as expected
-  *
-*/
-function baz(a) {
-  b = a;
-  console.log(b);
-}
-
-baz(2);
-
