@@ -1,6 +1,6 @@
 /*
   *
-  * ! Array
+  * ! Cache
   *
 */
 function cached(fn) {
