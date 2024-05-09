@@ -2,7 +2,7 @@
   *
   * ! RAW TYPE
   * An explanation
-  * https://teletype.in/@cyril.mialik/js_raw_type
+  * https://teletype.in/@cyril.mialik/raw_type_js
   *
 */
 
